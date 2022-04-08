@@ -12,7 +12,7 @@ int is_operator(char);
 int precedence(char);
 void main()
 {
-    printf("\Enter A Infix Expresion : ");
+    printf("Enter A Infix Expresion : ");
     gets(exp);
     printf("your Expresion : %s\n",exp);
     printf("\nAfter Evuluate Expresion %d ",eval());
