@@ -111,7 +111,6 @@ void push_operand(int c)
 }
 char pop_operator()
 {
-    printf("\n%c",operator_stack[operator_top]);
     return operator_stack[operator_top--];
 }
 int pop_operand()
